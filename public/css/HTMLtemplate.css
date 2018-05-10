@@ -1,0 +1,190 @@
+/* HTML Template basic stylesheet  */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #FFF;
+  min-height: 100%;
+  width: 100%;
+  margin: 0;
+  position: relative;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Amatic SC', cursive;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+}
+
+.container {
+  min-height: 750px;
+  width: 100%;
+  margin: 0 auto;
+  /* footer height + space */
+  padding: 0 0 80px;
+  /* footer height + space */
+  box-sizing: border-box;
+  overflow: auto;
+  position: relative;
+}
+
+
+/* Onderstaande haalt de default margin-bottom and rounded borders weg */
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0 !important;
+  font-family: 'Amatic SC', cursive;
+  font-size: 25px;
+}
+
+.navbar-brand {
+  background: url("../images/habadie-logo.png") no-repeat;
+  background-size: contain;
+  margin: 20px 50px 10px 10px;
+  width: 100px;
+}
+
+.navbar-nav {
+  margin-top: 15px;
+  float: none !important;
+}
+
+.navbar-default .navbar-nav>li .fa {
+  color: #E5001B;
+  margin: 0;
+}
+
+
+/* Jumbotron met achtergrond plaatje */
+
+.jumbotron {
+  background: url("../images/vanessa-serpas.jpg") no-repeat fixed center 25%;
+  background-size: cover;
+  font-family: "Gamja Flower", cursive;
+  padding-top: 20px;
+  color: #FFF;
+  height: 300px;
+  text-shadow: 1px 1px 6px rgba(150, 150, 150, 1);
+  border-radius: 0 !important;
+  margin-top: 60px;
+}
+
+.banner {
+  height: 80px;
+  background: url("../images/vanessa-serpas.jpg") no-repeat center top;
+  background-size: cover;
+}
+
+.banner2 {}
+
+.column-right {
+  height: 641px;
+  padding: 0;
+  margin: 0;
+  background: url("../images/jelleke-vanooteghem.jpg") no-repeat center 20%;
+  background-size: cover;
+}
+
+.column-left {
+  min-height: 614px;
+  padding: 50px;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: #FFF;
+  margin: 0;
+  background-color: #6b89db;
+}
+
+
+/* Footer met grijze background color */
+
+.footer {
+  position: absolute;
+  display: block;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 5px;
+  background-color: #f2f2f2;
+  margin-top: 10px;
+}
+
+.footer p {
+  margin: 15px 0 5px;
+}
+
+
+/* Social media icons */
+
+.fa {
+  font-size: 30px !important;
+  color: #E5001B;
+  margin: 5px;
+}
+
+.fa:hover {
+  color: #4e4e4e;
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.glyphicon {
+  color: #E5001B;
+}
+
+.glyphicon:hover {
+  color: #4e4e4e;
+}
+
+.verkooppuntenbtn {
+  background-color: transparent;
+  border: none;
+  -webkit-transition-duration: 0.8s;
+}
+
+.verkooppuntenbtn:hover, .verkooppuntenbtn:active, .verkooppuntenbtn:focus {
+  border: none;
+  outline: none;
+}
+
+.up {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+  -webkit-transition-duration: 0.8s;
+}
+
+.verkooppunt {
+  margin: 20px 0;
+  padding: 0;
+}
+
+.card {
+  margin: 30px 20px;
+  border: 1px solid #eee;
+}
+
+.contact {
+  height: 200px;
+  background-color: #E5001B;
+  padding: 20px 50px;
+}
+
+.text-white {
+  color: #FFF;
+}
