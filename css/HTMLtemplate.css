@@ -32,7 +32,7 @@ p {
   width: 100%;
   margin: 0 auto;
   /* footer height + space */
-  padding: 0 0 80px;
+  padding: 0 0 20px;
   /* footer height + space */
   box-sizing: border-box;
   overflow: auto;
@@ -180,7 +180,7 @@ p {
 }
 
 .contact {
-  height: 200px;
+  min-height: 200px;
   background-color: #E5001B;
   padding: 20px 50px;
 }
