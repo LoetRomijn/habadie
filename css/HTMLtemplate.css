@@ -50,7 +50,7 @@ p {
 }
 
 .navbar-brand {
-  background: url("../images/habadie-logo.png") no-repeat;
+  background: url("../images/habadie-logo-new.png") no-repeat;
   background-size: contain;
   margin: 20px 50px 10px 10px;
   width: 100px;
@@ -99,6 +99,7 @@ p {
 
 .column-left {
   min-height: 614px;
+  max-width: 620px;
   padding: 50px;
   font-size: 18px;
   font-family: "Open Sans", sans-serif;
