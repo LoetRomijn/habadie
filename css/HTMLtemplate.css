@@ -90,7 +90,7 @@ p {
 .banner2 {}
 
 .column-right {
-  height: 641px;
+  /* height: 641px; */
   padding: 0;
   margin: 0;
   background: url("../images/jelleke-vanooteghem.jpg") no-repeat center 20%;
@@ -99,7 +99,6 @@ p {
 
 .column-left {
   min-height: 614px;
-  max-width: 620px;
   padding: 50px;
   font-size: 18px;
   font-family: "Open Sans", sans-serif;
@@ -107,8 +106,9 @@ p {
   margin: 0;
   background-color: #6b89db;
 }
-
-
+.habawietekst {
+  max-width: 620px;
+}
 /* Footer met grijze background color */
 
 .footer {
